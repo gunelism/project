@@ -1,0 +1,41 @@
+#features{
+	position: relative;
+	padding: 95px 0;
+	border-bottom: 1px solid lightgrey;
+	.row{
+		padding-left: 30px;
+	}
+	button{
+			margin-left: 44%;
+			margin-top: 70px;
+			background-color: #29c2e1;
+			border: 0;
+			border-radius:20px;
+			font-size: 15px;	
+			width: 170px;
+			height: 40px;
+		}
+	h1{
+		font-size: 30px;
+		font-weight: 700;
+	}
+	p{
+		padding-top: 5px;
+	}
+	.media{
+		margin-top: 60px;
+		h4{
+			font-size: 20px;
+		}
+		p{
+			padding-top: 15px;
+			font-size: 14px;
+			color:  #55595f;
+			line-height: 2em;
+		}
+		.media-body{
+			padding-left: 30px;
+		}
+	}
+}
+

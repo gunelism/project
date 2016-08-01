@@ -1,0 +1,49 @@
+#services{
+	padding: 100px 0 60px 0;
+
+	h1{
+		font-size: 30px;
+		font-weight: 600;
+	}
+	p{
+		font-size: 14.5px;
+		padding-top: 5px;	
+	}
+	.media{
+		padding: 60px 0;
+		border-bottom: 1px solid lightgrey;
+		&:last-child{
+			border-bottom: 0px;
+		}
+		.media-left{
+			// padding: 50px 0;
+		}
+		.media-body{
+			// padding: 40px 0 60px 78px;
+			// padding-top: 40px;
+			padding-left: 78px;
+
+			h4{ 
+				padding-left: 10px;
+				font-size: 20px;
+				border-left: 2px solid orange;
+			}
+			p{
+				// margin-top: 20px;
+				margin-top: 25px;
+				font-size: 14px;
+				color: #55595f;
+				line-height: 1.8em;
+			}
+			button{
+				border-radius: 20px;
+				margin-top: 20px;
+				padding: 5px 30px;
+				&:first-child{
+					background-color: #f7941d;
+				}
+			}
+		}
+
+	}
+}

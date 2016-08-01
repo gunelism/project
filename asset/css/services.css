@@ -1,0 +1,177 @@
+.navbar-default {
+  border-bottom: 0;
+  margin-right: 0;
+  border-radius: 0; }
+
+#head {
+  margin: 0 auto;
+  background-color: #e5eef0;
+  color: #9EABB1;
+  min-height: 50px;
+  font-size: 14px; }
+  #head .navbar-default {
+    margin-bottom: 0px; }
+  #head .navbar-header {
+    padding-top: 15px; }
+  #head ul li {
+    display: inline-block;
+    padding-top: 15px; }
+  #head ul:last-child li {
+    margin-left: 15px;
+    padding-left: 15px; }
+    #head ul:last-child li:last-child {
+      border-left: 1px solid lightgrey;
+      height: 50px; }
+
+#head2 {
+  min-height: 75px; }
+  #head2 .navbar {
+    margin-bottom: 0px; }
+  #head2 li {
+    padding-top: 20px;
+    display: inline-block;
+    color: #9EABB1;
+    font-size: 14px; }
+    #head2 li a {
+      color: #9EABB1; }
+  #head2 ul:last-child li {
+    margin-left: 40px;
+    padding-top: 30px; }
+
+#image {
+  width: 100%;
+  padding: 120px 0;
+  background-color: #8d8d8d;
+  color: #ffffff; }
+  #image h1 {
+    font-weight: 600;
+    font-size: 45px; }
+  #image p {
+    padding-top: 15px;
+    font-size: 14px; }
+
+#services {
+  padding: 100px 0 60px 0; }
+  #services h1 {
+    font-size: 30px;
+    font-weight: 600; }
+  #services p {
+    font-size: 14.5px;
+    padding-top: 5px; }
+  #services .media {
+    padding: 60px 0;
+    border-bottom: 1px solid lightgrey; }
+    #services .media:last-child {
+      border-bottom: 0px; }
+    #services .media .media-body {
+      padding-left: 78px; }
+      #services .media .media-body h4 {
+        padding-left: 10px;
+        font-size: 20px;
+        border-left: 2px solid orange; }
+      #services .media .media-body p {
+        margin-top: 25px;
+        font-size: 14px;
+        color: #55595f;
+        line-height: 1.8em; }
+      #services .media .media-body button {
+        border-radius: 20px;
+        margin-top: 20px;
+        padding: 5px 30px; }
+        #services .media .media-body button:first-child {
+          background-color: #f7941d; }
+
+#footer {
+  letter-spacing: 1px;
+  position: relative;
+  padding: 75px 0 80px 0;
+  border-bottom: 1px solid lightgrey; }
+  #footer h1 {
+    font-size: 18px; }
+  #footer li {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #8d8d8d;
+    padding-top: 30px; }
+  #footer i {
+    padding-right: 10px; }
+  #footer #service {
+    padding-top: 20px; }
+  #footer input {
+    height: 50px; }
+  #footer button {
+    background-color: #29c2e1;
+    border-radius: 0;
+    height: 50px;
+    color: white; }
+  #footer #orange {
+    width: 0px;
+    height: 0px;
+    border-top: 160px solid transparent;
+    border-bottom: 160px solid #f69b37;
+    border-left: 220px solid #f69b37;
+    border-right: 220px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+
+#copyRight {
+  position: relative; }
+  #copyRight .container p {
+    color: #8d8d8d;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 45px; }
+  #copyRight #blue {
+    width: 0px;
+    height: 0px;
+    border-top: 160px solid transparent;
+    border-bottom: 160px solid #29c2e1;
+    border-left: 220px solid transparent;
+    border-right: 220px solid #29c2e1;
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+
+#month #yuxar {
+  padding: 90px 0;
+  border-bottom: 1px solid lightgrey; }
+  #month #yuxar h1 {
+    font-size: 30px;
+    font-weight: 500; }
+  #month #yuxar p {
+    padding-top: 10px;
+    word-spacing: 5px; }
+  #month #yuxar button {
+    margin-top: 30px;
+    background-color: #29c2e1;
+    border: 0;
+    border-radius: 20px;
+    font-size: 13px;
+    width: 150px;
+    height: 40px; }
+    #month #yuxar button:last-child {
+      background-color: #f7941d; }
+
+#years {
+  background-color: #e5eef0;
+  padding: 100px 0; }
+  #years .col-md-6 {
+    color: #55595f;
+    line-height: 1.8em;
+    font-size: 14px; }
+  #years .col-md-3 {
+    padding-bottom: 80px;
+    padding-left: 50px; }
+    #years .col-md-3 .media-body {
+      padding-left: 40px;
+      font-size: 13px; }
+      #years .col-md-3 .media-body h1 {
+        font-size: 50px; }
+    #years .col-md-3 .media-object {
+      padding-top: 5px; }
+
+body {
+  font-family: "tahoma", sans-serif; }
+
+/*# sourceMappingURL=services.css.map */

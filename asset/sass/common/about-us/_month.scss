@@ -1,0 +1,28 @@
+#month{
+	#yuxar{
+	padding: 90px 0; 
+		border-bottom: 1px solid lightgrey;
+			
+			h1{
+			font-size: 30px;
+			font-weight: 500;
+			}
+			p{
+				padding-top: 10px;
+				word-spacing: 5px;
+			}
+			button{
+			margin-top: 30px;
+			background-color: #29c2e1;
+			border: 0;
+			border-radius:20px;
+			font-size: 13px;	
+			width: 150px;
+			height: 40px;
+
+			&:last-child{
+				background-color: #f7941d;
+			}
+		}
+	}
+}

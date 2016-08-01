@@ -1,0 +1,51 @@
+#project{
+	padding-top: 90px;
+	h1{
+		font-size: 30px;
+		font-weight: 600
+	}
+	p{
+		font-size: 14.5px;
+		padding-top: 5px;
+	}
+	.col-md-3 div{
+		margin-top: 30px;
+		background-color: #8d8d8d;
+
+	}
+	#birinci{
+		height: 261px;
+		background-color: #8d8d8d;
+
+		&:last-child{
+			height: 211px;
+		}
+	}
+	#ikinci{
+		&:first-child{
+			height: 393px;
+		}
+		&:nth-child(2){
+			height: 150px;
+		}
+		&:nth-child(3){
+			height: 170px;
+		}
+		&:nth-child(4){
+			height: 170px;
+		}
+	}
+	#ucuncu{
+		height: 393px;
+		&:first-child{
+			height: 193px;
+		}
+	}
+	#dorduncu{
+		height: 327px;
+
+		&:last-child{
+			height: 367px;
+		}
+	}
+}

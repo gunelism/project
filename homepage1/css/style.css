@@ -69,8 +69,6 @@ img {
     height: 70px;
     border: 3px solid #ffffff;
     position: relative;
-    /* -moz-border-radius:    10px;
-     -webkit-border-radius: 10px;*/
     border-radius: 50%; }
   #image #talkbubble:before {
     content: "";
@@ -153,6 +151,11 @@ img {
     padding-top: 5px; }
   #client .media p {
     padding: 5px 40px 0 40px; }
+  #client .col-md-5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
   #client #bigbubble {
     margin-top: 195px; }
     #client #bigbubble li {
@@ -164,17 +167,15 @@ img {
         background-color: #8d8d8d;
         width: 100%;
         height: 100%; }
-  #client #littlebub {
-    text-align: center; }
-    #client #littlebub li {
-      display: inline-block;
-      height: 12px;
-      width: 12px;
-      border-radius: 50%;
-      background-color: #b3cacf;
-      margin-top: 15px; }
-      #client #littlebub li:first-child {
-        background-color: #29c2e1; }
+  #client #littlebub li {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #b3cacf;
+    margin-top: 15px; }
+    #client #littlebub li:first-child {
+      background-color: #29c2e1; }
   #client li #circle {
     border-radius: 50%;
     background-color: #8d8d8d;
@@ -326,25 +327,74 @@ img {
         font-size: 15px; }
 
 #last {
-  min-height: 742px; }
-  #last #yuxar {
-    height: 315px;
-    border-bottom: 1px solid lightgrey; }
-    #last #yuxar h1 {
-      padding-top: 90px;
-      font-size: 30px;
-      font-weight: 500; }
-    #last #yuxar p {
-      padding-top: 15px; }
-    #last #yuxar button {
-      margin-top: 35px;
-      background-color: #29c2e1;
-      border: 0;
-      border-radius: 20px;
-      font-size: 13px;
-      width: 150px;
-      height: 40px; }
-      #last #yuxar button:last-child {
-        background-color: #f7941d; }
+  padding: 100px 0;
+  border-bottom: 1px solid lightgrey; }
+  #last h1 {
+    font-size: 30px;
+    font-weight: 500; }
+  #last p {
+    padding-top: 15px; }
+  #last button {
+    margin-top: 35px;
+    background-color: #29c2e1;
+    border: 0;
+    border-radius: 20px;
+    font-size: 13px;
+    width: 150px;
+    height: 40px; }
+    #last button:last-child {
+      background-color: #f7941d; }
+
+#footer {
+  letter-spacing: 1px;
+  position: relative;
+  padding: 75px 0 80px 0;
+  border-bottom: 1px solid lightgrey; }
+  #footer h1 {
+    font-size: 18px; }
+  #footer li {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #8d8d8d;
+    padding-top: 30px; }
+  #footer i {
+    padding-right: 10px; }
+  #footer #service {
+    padding-top: 20px; }
+  #footer input {
+    height: 50px; }
+  #footer button {
+    background-color: #29c2e1;
+    border-radius: 0;
+    height: 50px;
+    color: white; }
+  #footer #orange {
+    width: 0px;
+    height: 0px;
+    border-top: 160px solid transparent;
+    border-bottom: 160px solid #f69b37;
+    border-left: 220px solid #f69b37;
+    border-right: 220px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+
+#copyRight {
+  position: relative; }
+  #copyRight .container p {
+    color: #8d8d8d;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 45px; }
+  #copyRight #blue {
+    width: 0px;
+    height: 0px;
+    border-top: 160px solid transparent;
+    border-bottom: 160px solid #29c2e1;
+    border-left: 220px solid transparent;
+    border-right: 220px solid #29c2e1;
+    position: absolute;
+    bottom: 0;
+    right: 0; }
 
 /*# sourceMappingURL=style.css.map */

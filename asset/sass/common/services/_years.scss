@@ -1,0 +1,27 @@
+#years {
+	background-color: #e5eef0;
+	padding: 100px 0;
+	.col-md-6{
+			// padding-top: 50px;
+			color: #55595f;
+			line-height: 1.8em;
+			font-size: 14px;
+
+		}
+	.col-md-3{
+		// padding-top: 50px;
+		padding-bottom: 80px;
+		padding-left: 50px;
+
+		.media-body{
+			padding-left: 40px;
+			font-size: 13px;
+			h1{
+				font-size: 50px;
+			}
+		}
+		.media-object{
+			padding-top: 5px;
+		}
+	}
+}

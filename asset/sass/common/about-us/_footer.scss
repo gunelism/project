@@ -1,0 +1,68 @@
+#footer{
+	letter-spacing: 1px;
+	position: relative;
+	padding: 75px 0 80px 0;
+	border-bottom: 1px solid lightgrey;
+
+	h1{
+		font-size: 18px;
+	}
+	li{
+		text-transform: uppercase;
+		font-size: 13px;
+		color: #8d8d8d;
+		padding-top: 30px;
+	}
+	i{
+		padding-right: 10px;
+	}
+	#service{
+		padding-top: 20px;
+	}
+	input{
+		height: 50px;
+	}
+	button{
+		background-color: #29c2e1;
+		border-radius: 0;
+		height: 50px;
+		color: white;
+	}
+	#orange{
+		width: 0px;
+		height: 0px;
+		border-top:160px solid transparent;
+		border-bottom: 160px solid #f69b37;
+		border-left: 220px solid #f69b37;
+		border-right: 220px solid transparent;
+	
+		position: absolute; 
+		bottom: 0;
+		left:0;
+	}
+}
+#copyRight{
+	position: relative;
+	.container{
+		p{
+			color: #8d8d8d;
+			font-size: 14px;
+			margin-top: 15px;
+			margin-bottom: 45px;
+		}
+	}
+
+	#blue{
+		width: 0px;
+		height: 0px;
+		border-top:160px solid transparent;
+		border-bottom: 160px solid #29c2e1;
+		border-left: 220px solid transparent;
+		border-right: 220px solid #29c2e1;
+	
+		position: absolute; 
+		bottom: 0;
+		right:0;
+	}
+
+}

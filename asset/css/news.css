@@ -1,0 +1,187 @@
+.navbar-default {
+  border-bottom: 0;
+  margin-right: 0;
+  border-radius: 0; }
+
+#head {
+  margin: 0 auto;
+  background-color: #e5eef0;
+  color: #9EABB1;
+  min-height: 50px;
+  font-size: 14px; }
+  #head .navbar-default {
+    margin-bottom: 0px; }
+  #head .navbar-header {
+    padding-top: 15px; }
+  #head ul li {
+    display: inline-block;
+    padding-top: 15px; }
+  #head ul:last-child li {
+    margin-left: 15px;
+    padding-left: 15px; }
+    #head ul:last-child li:last-child {
+      border-left: 1px solid lightgrey;
+      height: 50px; }
+
+#head2 {
+  min-height: 75px; }
+  #head2 .navbar {
+    margin-bottom: 0px; }
+  #head2 li {
+    padding-top: 20px;
+    display: inline-block;
+    color: #9EABB1;
+    font-size: 14px; }
+    #head2 li a {
+      color: #9EABB1; }
+  #head2 ul:last-child li {
+    margin-left: 40px;
+    padding-top: 30px; }
+
+#image {
+  width: 100%;
+  padding: 120px 0;
+  background-color: #8d8d8d;
+  color: #ffffff; }
+  #image h1 {
+    font-weight: 600;
+    font-size: 45px; }
+  #image p {
+    padding-top: 15px;
+    font-size: 14px; }
+
+#rows {
+  padding-top: 90px;
+  padding-bottom: 80px; }
+  #rows h1 {
+    font-weight: 600;
+    font-size: 30px; }
+  #rows p {
+    padding-top: 5px;
+    font-size: 14px;
+    padding-bottom: 30px; }
+  #rows button {
+    background-color: #29c2e1;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+    padding: 10px 30px; }
+  #rows h3 {
+    padding-top: 10px;
+    font-size: 16px; }
+  #rows h4 {
+    padding-top: 40px;
+    font-size: 20px; }
+  #rows .row p {
+    font-size: 14px;
+    padding: 30px;
+    line-height: 1.8em; }
+  #rows .row .bir div:nth-child(odd), #rows .row .uc div:nth-child(odd) {
+    width: 100%;
+    height: 378px;
+    background-color: #8d8d8d;
+    position: relative; }
+    #rows .row .bir div:nth-child(odd) .trian, #rows .row .uc div:nth-child(odd) .trian {
+      width: 30px;
+      border-top: 30px solid transparent;
+      border-bottom: 30px solid #e5eef0;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      position: absolute;
+      bottom: 0;
+      left: 42%; }
+  #rows .row .bir div:nth-child(even), #rows .row .uc div:nth-child(even) {
+    width: 100%;
+    height: 378px;
+    background-color: #e5eef0;
+    padding: 40px 0; }
+  #rows .row .iki div:nth-child(even) {
+    width: 100%;
+    height: 378px;
+    background-color: #8d8d8d; }
+  #rows .row .iki div:nth-child(odd) {
+    width: 100%;
+    height: 378px;
+    background-color: #e5eef0;
+    padding: 40px 0; }
+
+#rows {
+  padding-bottom: 100px; }
+
+#month #yuxar {
+  padding: 90px 0;
+  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid lightgrey; }
+  #month #yuxar h1 {
+    font-size: 30px;
+    font-weight: 500; }
+  #month #yuxar p {
+    padding-top: 10px;
+    word-spacing: 5px; }
+  #month #yuxar button {
+    margin-top: 30px;
+    background-color: #29c2e1;
+    border: 0;
+    border-radius: 20px;
+    font-size: 13px;
+    width: 150px;
+    height: 40px; }
+    #month #yuxar button:last-child {
+      background-color: #f7941d; }
+
+#footer {
+  letter-spacing: 1px;
+  position: relative;
+  padding: 75px 0 80px 0;
+  border-bottom: 1px solid lightgrey; }
+  #footer h1 {
+    font-size: 18px; }
+  #footer li {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #8d8d8d;
+    padding-top: 30px; }
+  #footer i {
+    padding-right: 10px; }
+  #footer #service {
+    padding-top: 20px; }
+  #footer input {
+    height: 50px; }
+  #footer button {
+    background-color: #29c2e1;
+    border-radius: 0;
+    height: 50px;
+    color: white; }
+  #footer #orange {
+    width: 0px;
+    height: 0px;
+    border-top: 160px solid transparent;
+    border-bottom: 160px solid #f69b37;
+    border-left: 220px solid #f69b37;
+    border-right: 220px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+
+#copyRight {
+  position: relative; }
+  #copyRight .container p {
+    color: #8d8d8d;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 45px; }
+  #copyRight #blue {
+    width: 0px;
+    height: 0px;
+    border-top: 160px solid transparent;
+    border-bottom: 160px solid #29c2e1;
+    border-left: 220px solid transparent;
+    border-right: 220px solid #29c2e1;
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+
+body {
+  font-family: "Tahoma", sans-serif; }
+
+/*# sourceMappingURL=news.css.map */
